@@ -27,6 +27,12 @@
   #nabar ul {
     padding: 0.5rem;
   }
+  #showcase .l-heading {
+    font-size: 2rem;
+  }
+  #showcase .lead {
+    font-size: 1rem;
+  }
   #showcase .showcase-content {
     margin-top: -2rem;
   }
