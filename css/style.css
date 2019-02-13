@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 * {
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 }
 
 body {
-  font-family: 'Viga', sans-serif;
+  font-family: 'Muli', sans-serif;
   line-height: 1.4;
 }
 
@@ -77,7 +78,7 @@ p {
 }
 
 .btn:hover {
-  background: #7ab436;
+  background: #0f38a8;
 }
 
 .btn-dark {
@@ -186,16 +187,19 @@ p {
   flex: 1;
 }
 #who .who-img {
-  background: url('../img/familyBusiness1.jpg') no-repeat center center/cover;
+  background: url('../img/veraldiFamily.jpg') no-repeat center center/cover;
 }
-/* CLIENTS */
-#clients .items {
+/* OUR WORK */
+#our-work .items {
   display: flex;
 }
-#clients .items img {
+#our-work .items img {
   display: block;
   margin: auto;
   width: 60%;
+}
+#our-work p {
+  text-align: center;
 }
 /* CONTACT */
 #contact {

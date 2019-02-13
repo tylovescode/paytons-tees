@@ -3,16 +3,16 @@
   padding: 1rem;
 }
 /* Align icons to left */
-#what .items .item {
+/* #what .items .item {
   display: flex;
   text-align: left;
-}
+} */
 /* Position Icon */
-#what .items .item i {
+/* #what .items .item i {
   margin-right: 1.3rem;
   align-self: center;
   margin-bottom: 0;
-}
+} */
 
 /* Smartphone */
 @media (max-width: 500px) {
@@ -31,22 +31,27 @@
     margin-top: -2rem;
   }
   #who {
-    display: block;
+    flex-direction: column;
   }
   #who .who-img {
-    display: none;
+    height: 200px;
   }
-  #clients .items img {
-    width: 80%;
+  #who {
+    text-align: center;
   }
-  #clients .items div:last-child {
-    display: none;
+  #our-work .items img {
+    width: 90%;
   }
+
   #contact {
     flex-direction: column;
   }
   #contact .map {
     height: 200px;
     border-top: 4px solid #333;
+  }
+  #contact h2,
+  #contact p {
+    text-align: center;
   }
 }
