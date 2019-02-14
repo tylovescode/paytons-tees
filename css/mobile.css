@@ -16,10 +16,12 @@
   #navbar ul {
     padding: 0.5rem;
   }
-  #showcase .l-heading {
+  #showcase .l-heading,
+  #success .l-heading {
     font-size: 2rem;
   }
-  #showcase .lead {
+  #showcase .lead,
+  #success .lead {
     font-size: 1rem;
   }
   #showcase .showcase-content {
